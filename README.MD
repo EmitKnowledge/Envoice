@@ -223,7 +223,7 @@ Lets say we want to add a client named Bob Smith from UK with email bob.smith@em
 That implies that he wants to receive invoice in Pound sterling and view the invoice in English.  
 
 The minimal request that we have to send contains Name, Email, Language, Currency and Country, everything else is optional.  
-Detailed information about which fields are accepted in the "New" and "Update" API calls can be found in the official documentation](https://www.envoice.in/reference/api/docs/v1)
+Detailed information about which fields are accepted in the "New" and "Update" API calls can be found in the [official documentation](https://www.envoice.in/reference/api/docs/v1)
 
 
 api/client/new
