@@ -67,7 +67,7 @@ Response: Id of created work type
 
 You will use this id as an item in your invoice.
 
-After this you need to create a client, but for that you also need some system data about that to create.
+After this you need to create a client, but for that you also need some system data.
 
 ### Get all supported countries
 api/general/countries
