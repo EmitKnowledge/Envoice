@@ -67,6 +67,8 @@ Response: Id of created work type
 
 You will use this id as an item in your invoice.
 
+ --- 
+
 After this you need to create a client, but for that you also need some system data.
 
 ### Get all supported countries
@@ -153,6 +155,8 @@ Response (shortened for readability purposes, ~12 items in real output):
 ]
 ```
 
+ --- 
+
 ###  Supported payment providers
 
 api/payment/supported
@@ -211,6 +215,8 @@ Response:
 ]
 ```
 
+ --- 
+
 ###  New client
 
 Lets say we want to add a client named Bob Smith from UK with email bob.smith@email.com.
@@ -243,6 +249,8 @@ Response: Id of created client
 2185
 ```
 
+ --- 
+ 
 Next you can finally create the invoice that would be sent to your client
 
 ###  New invoice
