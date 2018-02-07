@@ -21,7 +21,7 @@ All examples will be presented as cURL request and JSON examples for request and
 
 ### Authentication setup
 
-In order to use the Envoice API you must be a [user](https://www.envoice.in/pricing) and generate 
+In order to use the Envoice API you must be a registered [user](https://www.envoice.in/app/github) and generate 
 [API key and secret](https://www.envoice.in/account/settings#api-tab) from your account settings.
 
 They might look something like this:  
@@ -116,13 +116,13 @@ Response (shortened for readability purposes, ~32 items in real output):
         "Id": 163,
         "Name": "Euro Member Countries",
         "Value": "EUR",
-        "Symbol": "€"
+        "Symbol": "â‚¬"
     },
     {
         "Id": 170,
         "Name": "United Kingdom Pound",
         "Value": "GBP",
-        "Symbol": "£"
+        "Symbol": "Â£"
     }
 ]
 ```
