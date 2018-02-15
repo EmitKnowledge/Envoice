@@ -51,13 +51,15 @@ Response (shortened for readability purposes, ~32 items in real output):
         "Id": 163,
         "Name": "Euro Member Countries",
         "Value": "EUR",
+        "Code": "978",
         "Symbol": "€"
     },
     {
-        "Id": 164,
-        "Name": "United States Dollar",
-        "Value": "USD",
-        "Symbol": "$"
+        "Name": "United Kingdom Pound",
+        "Value": "GBP",
+        "Code": "826",
+        "Symbol": "£",
+        "Id": 170
     }
 ]
 ```

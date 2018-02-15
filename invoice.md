@@ -23,16 +23,16 @@ Response (shortened for readability purposes, ~32 items in real output):
     {
         "Name": "Euro Member Countries",
         "Value": "EUR",
+        "Code": "978",
         "Symbol": "€",
-        "Id": 163,
-        "CreatedOn": "2016-12-05T01:43:22.317+00:00"
+        "Id": 163
     },
     {
         "Name": "United Kingdom Pound",
         "Value": "GBP",
+        "Code": "826",
         "Symbol": "£",
-        "Id": 170,
-        "CreatedOn": "2016-12-05T01:43:22.317+00:00"
+        "Id": 170
     }
 ]
 ```
@@ -177,6 +177,7 @@ Response: Created invoice
         "Id": 163,
         "Name": "Euro Member Countries",
         "Value": "EUR",
+        "Code": "978",
         "Symbol": null
     },
     "ClonedFromId": null,
@@ -278,6 +279,7 @@ Response: Updated invoice
         "Id": 163,
         "Name": "Euro Member Countries",
         "Value": "EUR",
+        "Code": "978",
         "Symbol": null
     },
     "ClonedFromId": null,
@@ -340,6 +342,7 @@ Response: List of all your invoices
                 "Id": 163,
                 "Name": "Euro Member Countries",
                 "Value": "EUR",
+    			"Code": "978",
                 "Symbol": null
             },
             "ClonedFromId": null,
@@ -557,6 +560,7 @@ Response: Invoice details
         "Id": 163,
         "Name": "Euro Member Countries",
         "Value": "EUR",
+        "Code": "978",
         "Symbol": null
     },
     "ClonedFromId": null,
