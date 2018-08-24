@@ -184,7 +184,11 @@ Response: List of all your clients
         "Name": "Bob Smith",
         "Address": null,
         "Email": "bob.smith@email.com",
-        "CC": null,
+        "AdditionalEmails": [
+            {
+                "Email": "bob.cc.smith@email.com"
+            }
+        ],
         "PhoneNumber": null,
         "Vat": null
     }
